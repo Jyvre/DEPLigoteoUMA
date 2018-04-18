@@ -91,6 +91,7 @@ public class Escenario {
         System.out.println("Juntitos y, de alguna manera, hablando sentados en un banco avanzais en el camino de las relaciones humanas.\n" +
                 "¿Conseguira " + conr.getName() + " conquistar a " + cono.getName() + "?\n" +
                 "Lo averiguaremos en la siguiente escena...");
+        conr.quitarVida();
 
     }
 
@@ -140,6 +141,7 @@ public class Escenario {
         System.out.println("El final se acerca, el sol se pone y la cita llega a su fin. Exito o desatre mañana será otro día y en breves habrás terminado el juego.\n" +
                 "¿Conseguira " + conr.getName() + " conquistar a " + cono.getName() + "?\n" +
                 "Lo averiguaremos en la última escena...");
+        conr.quitarVida();
 
     }
 
