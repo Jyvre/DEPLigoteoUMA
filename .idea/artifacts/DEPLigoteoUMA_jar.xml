@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DEPLigoteoUMA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DEPLigoteoUMA_jar</output-path>
+    <root id="archive" name="DEPLigoteoUMA.jar">
+      <element id="module-output" name="DEPLigoteoUMA" />
+    </root>
+  </artifact>
+</component>
