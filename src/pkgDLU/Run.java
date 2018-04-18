@@ -25,6 +25,8 @@ public class Run {
                 "Sin más dilación que llegue... la primera escena." );
         Thread.sleep(3000);
         esc.firstScene(sc);
+        Thread.sleep(3000);
+        esc.secondScene(sc);
 
     }
 

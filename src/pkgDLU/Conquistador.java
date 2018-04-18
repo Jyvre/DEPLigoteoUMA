@@ -20,7 +20,7 @@ public class Conquistador {
     }
 
     public int usarRecurso(String a){
-
+        a = a.toUpperCase();
         recursos.remove(a);
         int ret = 0;
         switch (a){
